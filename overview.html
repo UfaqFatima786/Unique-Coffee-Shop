@@ -15,56 +15,208 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="overview.css">
 </head>
 
 <body>
+    <div class="site-shell">
+        <div class="container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navUl navnav mt-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html" aria-label="Unique Coffee Shop home">
+                            <span class="logo-1"><i class="fa-solid fa-mug-hot"></i></span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                            <ul class="navbar-nav navlist ms-auto mb-lg-0 gap-5">
+                                <li class="nav-item">
+                                    <a class="nav-link blog" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="overview.html">Overview</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
 
-    <div class="container-fluid">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navUl navnav mt-3">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./images/bakery navbar.png" class="logo-1"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
-                        <ul class="navbar-nav navlist ms-auto mb-lg-0 gap-5">
-                            <li class="nav-item">
-                                <a class="nav-link blog" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="shop.html">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="overview.html">Overview</a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="overview.css">Contact</a>
-                            </li> -->
-                        </ul>
+        <div class="page-section-nav">
+            <a class="nav-link page-section-link" href="#hero">Hero</a>
+            <a class="nav-link page-section-link" href="#why">Why Choose Us</a>
+            <a class="nav-link page-section-link" href="#products">Featured Products</a>
+            <a class="nav-link page-section-link" href="#special-offers">Special Offers</a>
+            <a class="nav-link page-section-link" href="#best-sellers">Best Sellers</a>
+            <a class="nav-link page-section-link" href="#quality">Quality</a>
+        </div>
+
+        <main class="container py-3 overview-page">
+            <section class="hero-section" id="hero">
+                <div class="hero-copy">
+                    <span class="eyebrow">Crafted For Coffee Lovers</span>
+                    <h1>Unique Coffee Shop</h1>
+                    <p>
+                        Step into a warm, premium coffee experience where every roast is carefully selected,
+                        every cup is handcrafted, and every visit feels like your favorite daily ritual.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="shop.html" class="btn btn-primary premium-btn">Explore Menu</a>
+                        <a href="about.html" class="btn btn-outline-light premium-btn-outline">Learn More</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div>
+                            <strong>12+</strong>
+                            <span>Signature Drinks</span>
+                        </div>
+                        <div>
+                            <strong>4.9/5</strong>
+                            <span>Customer Love</span>
+                        </div>
+                        <div>
+                            <strong>Fresh Daily</strong>
+                            <span>Roasted to Order</span>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </div>
-    </div>
-    <div class="page-section-nav">
-        <a class="nav-link page-section-link" href="#hero">Hero</a>
-        <a class="nav-link page-section-link" href="#why">Why Choose Us</a>
-        <a class="nav-link page-section-link" href="#products">Featured Products</a>
-        <a class="nav-link page-section-link" href="#special-offers">Special Offers</a>
-        <a class="nav-link page-section-link" href="#best-sellers">Best Sellers</a>
-        <a class="nav-link page-section-link" href="#quality">Quality</a>
-    </div>
 
+                <div class="hero-visual">
+                    <div class="cup-card glass-card">
+                        <div class="cup-badge">Today’s Special</div>
+                        <div class="cup-design">
+                            <div class="cup-top"></div>
+                            <div class="cup-body"></div>
+                            <div class="cup-handle"></div>
+                        </div>
+                        <div class="cup-meta">
+                            <span>Velvet Mocha</span>
+                            <strong>Rich • Creamy • Bold</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <div class="container">
-        
-    </div>
+            <section class="icon-grid" id="why">
+                <div class="info-card glass-card">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h3>Handcrafted Brews</h3>
+                    <p>Every cup is prepared with deep-roasted beans and barista precision.</p>
+                </div>
+                <div class="info-card glass-card">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h3>Premium Ingredients</h3>
+                    <p>Fresh milk, ethically sourced beans, and balanced flavors in every sip.</p>
+                </div>
+                <div class="info-card glass-card">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Relaxed Ambience</h3>
+                    <p>A refined space where you can unwind, work, or catch up over a comforting drink.</p>
+                </div>
+            </section>
+
+            <section class="section-panel" id="products">
+                <div class="section-heading">
+                    <span>Featured Products</span>
+                    <h2>Most Loved Coffee Collection</h2>
+                </div>
+                <div class="product-grid">
+                    <article class="product-card glass-card">
+                        <div class="product-icon"><i class="fa-solid fa-mug-hot"></i></div>
+                        <h3>Classic Cappuccino</h3>
+                        <p>Silky foam, rich espresso, and a signature roasted finish.</p>
+                        <strong>PKR 350</strong>
+                    </article>
+                    <article class="product-card glass-card">
+                        <div class="product-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+                        <h3>Caramel Latte</h3>
+                        <p>Sweet caramel warmth with a smooth, balanced coffee body.</p>
+                        <strong>PKR 390</strong>
+                    </article>
+                    <article class="product-card glass-card">
+                        <div class="product-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3>Irish Cold Brew</h3>
+                        <p>A chilled premium blend with crisp notes and long-lasting finish.</p>
+                        <strong>PKR 420</strong>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section-panel offer-strip" id="special-offers">
+                <div class="section-heading">
+                    <span>Special Offers</span>
+                    <h2>Fresh Deals for Your Everyday Sip</h2>
+                </div>
+                <div class="offer-grid">
+                    <div class="offer-card">
+                        <small>Tea + Coffee Combo</small>
+                        <h3>Buy 2 Get 1 Free</h3>
+                        <p>On selected handcrafted beverages every afternoon.</p>
+                    </div>
+                    <div class="offer-card accent">
+                        <small>Morning Routine</small>
+                        <h3>10% Off Breakfast Pairings</h3>
+                        <p>Enjoy coffee with pastry bundles at a premium value.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-panel" id="best-sellers">
+                <div class="section-heading">
+                    <span>Best Sellers</span>
+                    <h2>Our Most Requested Favorites</h2>
+                </div>
+                <div class="best-seller-list glass-card">
+                    <div class="seller-row">
+                        <span>1. Velvet Mocha</span>
+                        <span>Rich chocolate blend</span>
+                    </div>
+                    <div class="seller-row">
+                        <span>2. Hazelnut Latte</span>
+                        <span>Warm nutty aroma</span>
+                    </div>
+                    <div class="seller-row">
+                        <span>3. Pure Americano</span>
+                        <span>Bold and smooth</span>
+                    </div>
+                    <div class="seller-row">
+                        <span>4. Vanilla Cream</span>
+                        <span>Soft and indulgent</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-panel quality-panel" id="quality">
+                <div class="section-heading">
+                    <span>Quality Promise</span>
+                    <h2>Why Guests Keep Coming Back</h2>
+                </div>
+                <div class="quality-grid">
+                    <div class="quality-card">
+                        <h3>Roasted Fresh</h3>
+                        <p>Every batch is roasted to preserve aroma, richness, and taste consistency.</p>
+                    </div>
+                    <div class="quality-card">
+                        <h3>Barista Crafted</h3>
+                        <p>Our team uses precise brewing techniques to deliver an unforgettable cup.</p>
+                    </div>
+                    <div class="quality-card">
+                        <h3>Comfort First</h3>
+                        <p>Warm seating, ambient lighting, and a welcoming rhythm for every coffee break.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
 
 
     <footer class="footer">
