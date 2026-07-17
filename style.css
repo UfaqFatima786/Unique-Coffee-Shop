@@ -47,6 +47,7 @@ body {
 }
 
 .nav-link:hover {
+    cursor: pointer;
     color: #ffd3a1;
     transform: translateY(-2px);
 }
@@ -68,6 +69,7 @@ body {
 }
 
 .page-section-link:hover {
+    cursor: pointer;
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
 }
@@ -130,6 +132,7 @@ body {
 }
 
 .premium-btn:hover {
+    cursor: pointer;
     background: linear-gradient(135deg, #ffd6a5, #ef9f64);
     color: #2a0f0c;
 }

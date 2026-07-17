@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweets-Delight</title>
+    <title>Shop | Unique Coffee Shop</title>
     <link rel="icon"
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHqGOe3bNOviGj0-IdmDJj21TCcK_6oTFHWf-xIBo3dw&s=10"
         type="image/x-icon">
@@ -12,101 +12,208 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="shop.css">
 </head>
 
 <body>
+    <div class="site-shell">
+        <div class="container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navUl navnav mt-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html" aria-label="Unique Coffee Shop home">
+                            <span class="logo-1"><i class="fa-solid fa-mug-hot"></i></span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                            <ul class="navbar-nav navlist ms-auto mb-lg-0 gap-5">
+                                <li class="nav-item">
+                                    <a class="nav-link blog" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="overview.html">Overview</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
 
-    <div class="container-fluid">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navUl navnav mt-3">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./images/bakery navbar.png" class="logo-1"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
-                        <ul class="navbar-nav navlist ms-auto mb-lg-0 gap-5">
-                             <li class="nav-item">
-                                <a class="nav-link blog" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="shop.html">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="overview.html">Overview</a>
-                            </li>
-                        </ul>
+        <div class="page-section-nav">
+            <a class="nav-link page-section-link" href="#hero">Featured</a>
+            <a class="nav-link page-section-link" href="#varieties">Varieties</a>
+            <a class="nav-link page-section-link" href="#special">Specials</a>
+            <a class="nav-link page-section-link" href="#pick">Best Picks</a>
+        </div>
+
+        <main class="container shop-page">
+            <section class="shop-hero" id="hero">
+                <div class="shop-copy">
+                    <span class="eyebrow">Coffee Collection</span>
+                    <h1>Explore signature coffee varieties</h1>
+                    <p>
+                        Discover handcrafted coffees crafted with premium beans, balanced profiles, and finishes that
+                        elevate every sip from mellow to bold.
+                    </p>
+                </div>
+                <div class="shop-highlight glass-card">
+                    <h3>Today’s highlight</h3>
+                    <p>Velvet Mocha — smooth chocolate roast with creamy body and a rich aromatic finish.</p>
+                </div>
+            </section>
+
+            <section class="coffee-grid" id="varieties">
+                <article class="coffee-card glass-card">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Espresso coffee">
+                    <div class="coffee-info">
+                        <span class="coffee-tag">Bold Roast</span>
+                        <h3>Espresso</h3>
+                        <p>
+                            A concentrated, dark and intense shot with a thick crema, perfect for a strong morning kick.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="coffee-card glass-card">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Cappuccino coffee">
+                    <div class="coffee-info">
+                        <span class="coffee-tag">Creamy Foam</span>
+                        <h3>Cappuccino</h3>
+                        <p>
+                            A balanced classic with rich espresso, steamed milk, and a fluffy foam layer for smooth elegance.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="coffee-card glass-card">
+                    <img src="https://images.unsplash.com/photo-1511920183355-8c8d13ca7f05?auto=format&fit=crop&w=900&q=80" alt="Latte coffee">
+                    <div class="coffee-info">
+                        <span class="coffee-tag">Smooth & Silky</span>
+                        <h3>Latte</h3>
+                        <p>
+                            Soft milk texture and mellow espresso create a comforting, creamy cup ideal for relaxed sipping.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="coffee-card glass-card">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80" alt="Americano coffee">
+                    <div class="coffee-info">
+                        <span class="coffee-tag">Classic</span>
+                        <h3>Americano</h3>
+                        <p>
+                            A lighter, clean coffee profile made by adding hot water to espresso for a smooth, bold finish.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="coffee-card glass-card">
+                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80" alt="Mocha coffee">
+                    <div class="coffee-info">
+                        <span class="coffee-tag">Sweet Blend</span>
+                        <h3>Mocha</h3>
+                        <p>
+                            A sweet combination of espresso, chocolate, and milk that delivers rich warmth and velvety taste.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="coffee-card glass-card">
+                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=900&q=80" alt="Cold brew coffee">
+                    <div class="coffee-info">
+                        <span class="coffee-tag">Chilled</span>
+                        <h3>Cold Brew</h3>
+                        <p>
+                            Slow-steeped and refreshing, this variety brings a smooth, mellow body with a crisp finish.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="special-panel" id="special">
+                <div class="section-heading">
+                    <span>Special Offers</span>
+                    <h2>Pair your favorite brew with a premium treat</h2>
+                </div>
+                <div class="offers-grid">
+                    <div class="offer-box">
+                        <h3>Morning Combo</h3>
+                        <p>Buy a cappuccino and get a buttery croissant at 20% off.</p>
+                    </div>
+                    <div class="offer-box accent">
+                        <h3>Weekend Delight</h3>
+                        <p>Enjoy two signature mochas for the price of one premium latte.</p>
                     </div>
                 </div>
-            </nav>
-        </div>
-    </div>
-    <div class="page-section-nav">
-        <a class="nav-link page-section-link" href="#hero">Hero</a>
-        <a class="nav-link page-section-link" href="#why">Why Choose Us</a>
-        <a class="nav-link page-section-link" href="#products">Featured Products</a>
-        <a class="nav-link page-section-link" href="#special-offers">Special Offers</a>
-        <a class="nav-link page-section-link" href="#best-sellers">Best Sellers</a>
-        <a class="nav-link page-section-link" href="#quality">Quality</a>
-    </div>
+            </section>
 
+            <section class="pick-panel" id="pick">
+                <div class="section-heading">
+                    <span>Best Picks</span>
+                    <h2>Most loved by our regulars</h2>
+                </div>
+                <div class="pick-list glass-card">
+                    <div class="pick-row"><span>1. Velvet Mocha</span><span>Rich, creamy, signature sweet favorite</span></div>
+                    <div class="pick-row"><span>2. Hazelnut Latte</span><span>Nutty aroma with balanced sweetness</span></div>
+                    <div class="pick-row"><span>3. Classic Americano</span><span>Bold, clean, and always refreshing</span></div>
+                </div>
+            </section>
+        </main>
 
-    <div class="container">
-       
-    </div>
-
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-col">
-                <h2>Sweets Delight</h2>
-                <p>
-                    Sweets Delight is dedicated to bringing you the finest selection of traditional and modern sweets,
-                    freshly baked treats, and delightful desserts. We use premium ingredients and authentic recipes to
-                    ensure every bite is full of flavor and happiness.
-                </p>
-            </div>
-            <div class="footer-col">
-                <h2>Quick Links</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="quality.html">Quality</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h2>Contact Us</h2>
-                <p>Email: u.capricorn19@.com</p>
-                <p>Phone: +92 300 1234567</p>
-                <p>Location: Karachi, Pakistan</p>
-            </div>
-            <div class="footer-col">
-                <h2>Follow Us</h2>
-                <div class="social-icons">
-                    <a href="https://github.com/UfaqFatima786" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h2>Unique Coffee</h2>
+                    <p>
+                        Unique Coffee blends refined flavors, comfortable ambience, and premium ingredients to create a
+                        memorable café experience with every cup.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="overview.html">Overview</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Contact Us</h2>
+                    <p>Email: u.capricorn19@.com</p>
+                    <p>Phone: +92 300 1234567</p>
+                    <p>Location: Karachi, Pakistan</p>
+                </div>
+                <div class="footer-col">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons">
+                        <a href="https://github.com/UfaqFatima786" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© Sweets,Bakers and Nimco. All Rights Reserved.</p>
-        </div>
-    </footer>
+            <div class="footer-bottom">
+                <p>© Unique Coffee Shop. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script src="app.js"></script>
 </body>
 
 </html>
