@@ -276,6 +276,7 @@ body {
 .footer-col p,
 .footer-col li,
 .footer-col a {
+        text-decoration: none;
     color: #f5e6d8;
     line-height: 1.8;
     font-size: 0.98rem;
