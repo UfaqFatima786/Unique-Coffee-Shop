@@ -203,6 +203,7 @@ body {
     border: 1px solid rgba(172, 172, 172, 0.473);
     transition: all 0.4s ease;
 }
+
 .about-stats div:hover {
     cursor: pointer;
     padding: 14px 12px;
@@ -257,7 +258,7 @@ body {
 .glass-card {
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 18px 40px rgba(243, 219, 166, 0.452);
     backdrop-filter: blur(14px);
 }
 
@@ -282,15 +283,35 @@ body {
 
 }
 
-.info-panel,
-.story-card,
-.timeline-item :hover {
-    transform: translateY(-8px) scale(1.01);
+.about-stats div {
+    padding: 14px 12px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(172, 172, 172, 0.473);
+    transition: all 0.4s ease;
+}
+
+.about-stats div:hover {
+    cursor: pointer;
+    padding: 14px 12px;
+    border-radius: 16px;
+    background: rgba(245, 223, 150, 0.281);
+    border: 1px solid rgb(255, 255, 255);
+    transform: translateY(-8px);
+}
+
+.info-panel {
+    transition: all 0.4s ease;
+}
+
+.info-panel:hover {
+    transform: translateY(-8px);
     cursor: pointer;
     padding: 24px;
     border-radius: 22px;
-    /* box-shadow: #00ffaa; */
+    box-shadow: #a2defa;
 }
+
 
 .icon-wrap {
     width: 56px;
